@@ -1,0 +1,14 @@
+#Recall the gitignore is used here to not upload flask's 600 files to github
+venv/
+
+*.pyc
+__pycache__/
+
+
+instance/
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
